@@ -1,0 +1,79 @@
+.navbar
+  background-color: #FAFDFF
+  &-block
+    padding: 26px 0
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-navigation
+    width: 594px
+    height: 48px
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-menu
+    padding-right: 6px
+    width: 415px
+    list-style: none
+    display: flex
+    padding-left: 0
+    justify-content: space-between
+    &__item
+      display: flex
+      align-items: center
+      &--dropdown
+        position: relative
+        display: inline-block
+    &__icon
+      margin-left: 6px
+    &__link
+      font-family: Open Sans
+      font-style: normal
+      font-weight: 600
+      font-size: 16px
+      line-height: 22px
+      color: #183B56
+      text-decoration: none
+      display: flex
+      align-items: center
+  &-button
+    padding: 11px 23px
+    font-family: Open Sans
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 22px
+    color: #1565D8
+    filter: drop-shadow(0px 10px 25px rgba(21, 37, 72, 0.1))
+    border: 2px solid #1565D8
+    border-radius: 8px
+    background-color: #FAFDFF
+    cursor: pointer
+    outline: none
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+.logo
+  &__image
+    width: 90px
+    height: 28px
+.dropdown
+  &-content
+    display: none
+    position: absolute
+    top: 20px
+    right: 0
+    &__link
+      text-decoration: none
+      display: block
+      color: #183B56
+      font-family: Open Sans
+      font-style: normal
+      font-weight: 600
+      font-size: 14px
+      line-height: 22px
+.menu
+  &-button
+    &-navbar 
+      display: none
+

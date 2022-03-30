@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ehya - web agancy</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar navbar--mobile-fixed">
+      <div class="container">
+        <div class="navbar-block">
+          <div class="navbar-logo" data-aos="fade-right" data-aos-delay="100">
+            <a href="index.html" class="logo"
+              ><img src="img/Logo.svg" alt="logo: Ehya" class="logo__image"
+            /></a>
+          </div>
+          <div class="navbar-navigation">
+            <ul class="navbar-menu" data-aos="fade-left" data-aos-delay="200">
+              <li class="navbar-menu__item">
+                <a href="" class="navbar-menu__link">Домой</a>
+              </li>
+              <li class="navbar-menu__item navbar-menu__item--dropdown">
+                <a href="" class="navbar-menu__link dropdown-link"
+                  >Лэндинги<img
+                    src="img/angle-down.svg"
+                    alt="icon: angle-down"
+                    class="navbar-menu__icon"
+                  />
+                </a>
+                <div class="dropdown-content">
+                  <a class="dropdown-content__link" href="#">Лэндинг 1</a>
+                  <a class="dropdown-content__link" href="#">Лэндинг 2</a>
+                  <a class="dropdown-content__link" href="#">Лэндинг 3</a>
+                </div>
+              </li>
+              <li class="navbar-menu__item navbar-menu__item--dropdown">
+                <a href="" class="navbar-menu__link dropdown-link"
+                  >Страницы
+                  <img
+                    src="img/angle-down.svg"
+                    alt="icon: angle-down"
+                    class="navbar-menu__icon"
+                  />
+                </a>
+                <div class="dropdown-content">
+                  <a class="dropdown-content__link" href="#">Страница 1</a>
+                  <a class="dropdown-content__link" href="#">Страница 2</a>
+                  <a class="dropdown-content__link" href="#">Страница 3</a>
+                </div>
+              </li>
+              <li class="navbar-menu__item">
+                <a href="" class="navbar-menu__link">Помощь</a>
+              </li>
+            </ul>
+            <button
+              data-toggle="modal"
+              class="button navbar-button"
+              type="submit"
+              data-aos="fade-left"
+              data-aos-delay="300"
+            >
+              Получить
+            </button>
+          </div>
+          <!-- /.navbar-navigation -->
+          <button class="menu-button menu-button-navbar">
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+          </button>
+        </div>
+        <!-- /.navbar-block -->
+      </div>
+      <!-- /.container -->
+    </header>
+    <!-- /.header -->
+    <section class="hero hero-thankyou">
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="hero-description">
+            <div class="hero-description__text">
+              <h1 class="hero-description__title">
+                Ваше сообщение отправлено!
+              </h1>
+              <p class="hero-description__desc">
+                Наш менеджер свяжется с Вами в течение 5 минут
+              </p>
+              <form action="index.html" class="hero-description__form">
+                <button class="hero-description__button" type="submit">
+                  Главная страница
+                </button>
+              </form>
+            </div>
+            <!-- /.hero-decription -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <!-- /.modal__overlay -->
+      <div class="modal__dialog">
+        <a href="#" class="modal__close">
+          <img src="img/close.svg" alt="Icon: close" />
+        </a>
+        <h3 class="modal__title modal__title--mb-3">Обратная связь</h3>
+        <form action="send.php" method="POST" class="modal__form form">
+          <input
+            type="text"
+            class="input modal__input"
+            placeholder="Имя*"
+            name="name"
+            required
+            minlength="2"
+          />
+          <input
+            type="tel"
+            class="input modal__input"
+            placeholder="Номер телефона*"
+            required
+            name="phone"
+            minlength="18"
+          />
+          <input
+            type="email"
+            class="input modal__input"
+            placeholder="Электронная почта*"
+            name="email"
+            required
+          />
+          <textarea
+            cols="30"
+            rows="10"
+            class="message modal__message"
+            placeholder="Текст заявки"
+            name="message"
+          ></textarea>
+          <div class="modal__infoButton">
+            <button class="button modal__button" type="submit">
+              Отправить
+            </button>
+            <span class="modal__info">* Обязательные поля</span>
+          </div>
+        </form>
+      </div>
+      <!-- /.modal__dialog -->
+    </div>
+    <!-- /.modal -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-wrapper">
+          <div class="footer-main footer-block">
+            <a href="index.html" class="footer-main__link"
+              ><img
+                src="img/footer-logo.svg"
+                alt="icon: footer-logo"
+                class="footer-main__logo"
+            /></a>
+            <p class="footer-main__text">
+              Создайте современный и креативный веб-сайт с crealand
+            </p>
+            <div class="footer-main-icons">
+              <a
+                href="https://www.google.ru/"
+                class="footer-main-icons__link"
+                target="_blank"
+                rel="nofollow noopener"
+                ><img
+                  src="img/google.png"
+                  alt="icon: google"
+                  class="footer-main-icons__icon"
+              /></a>
+              <a
+                href="https://twitter.com/?lang=ru"
+                class="footer-main-icons__link"
+                target="_blank"
+                rel="nofollow noopener"
+                ><img
+                  src="img/twitter.png"
+                  alt="icon: twitter"
+                  class="footer-main-icons__icon"
+              /></a>
+              <a
+                href="https://www.instagram.com/?hl=ru"
+                class="footer-main-icons__link"
+                target="_blank"
+                rel="nofollow noopener"
+                ><img
+                  src="img/instagram.png"
+                  alt="icon: instagram"
+                  class="footer-main-icons__icon"
+              /></a>
+              <a
+                href="https://ru.linkedin.com/"
+                class="footer-main-icons__link"
+                target="_blank"
+                rel="nofollow noopener"
+                ><img
+                  src="img/linkedin.png"
+                  alt="icon: linkedin"
+                  class="footer-main-icons__icon"
+              /></a>
+              <a
+                href="https://www.youtube.com/?gl=RU&hl=ru"
+                class="footer-main-icons__link"
+                target="_blank"
+                rel="nofollow noopener"
+                ><img
+                  src="img/youtube.png"
+                  alt="icon: youtube"
+                  class="footer-main-icons__icon"
+              /></a>
+            </div>
+          </div>
+          <div class="footer-product footer-block">
+            <div class="footer-product__title">Продукт</div>
+            <ul class="footer-product__items">
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Лендинг</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Функции</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Документация</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Скидки</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Расценки</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-services footer-product footer-block">
+            <div class="footer-product__title">Сервисы</div>
+            <ul class="footer-product__items">
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Документация</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Дизайн</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Темы</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Иллюстрации</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">UI Kit</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-company footer-product footer-block">
+            <div class="footer-product__title">Компания</div>
+            <ul class="footer-product__items">
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">О нас</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Условия</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Privacy Policy </a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Careers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-more footer-product footer-block">
+            <div class="footer-product__title">Более</div>
+            <ul class="footer-product__items">
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Документация</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Лицензия</a>
+              </li>
+              <li class="footer-product__item">
+                <a href="#" class="footer-product__link">Изменения</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ./footer-wrapper -->
+        <div class="footer-heart-link">
+          <a href="#" class="footer-link"
+            ><img src="img/heart.svg" alt="icon: heart" class="footer-icon"
+          /></a>
+          <span class="footer-copyright"
+            >Copyright © 2019. Crafted with love.</span
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

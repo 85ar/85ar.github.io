@@ -1,0 +1,125 @@
+.modal
+  &__overlay
+    position: fixed
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background-color: rgba(0, 143, 223, 0.39)
+    z-index: 100
+    visibility: hidden
+    opacity: 0
+    transition: opacity 0.2s
+    &--visible
+      visibility: visible
+      opacity: 1
+  &__dialog
+    position: fixed
+    top: 50%
+    left: 50%
+    max-width: 478px
+    padding: 33px 70px
+    background-color: #1565D8
+    transform: translate(-50%, -50%)
+    color: white
+    border-radius: 8px
+    z-index: 101
+    visibility: hidden
+    opacity: 0
+    transition: opacity 0.2s
+    &--visible
+      visibility: visible
+      opacity: 1
+  &__close
+    position: absolute
+    right: 18px
+    top: 17px
+    text-decoration: none
+    cursor: pointer
+  &__title
+    font-family: Roboto
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    text-transform: uppercase
+    margin-bottom: 25px
+    text-align: center
+  &__input
+    width: 100%
+    margin-top: 15px
+    font-size: 14px
+    font-family: Roboto
+    font-style: normal
+    font-weight: normal
+    color: $text-color
+    outline: none
+    background-color: #fff
+    border-radius: 4px
+    border: none
+    padding: 0 23px
+    height: 50px
+
+  &__input:first-child
+    margin-top: 0
+  &__message
+    font-size: 14px
+    font-family: Roboto
+    font-style: normal
+    font-weight: normal
+    width: 100%
+    max-height: 123px
+    margin-top: 15px
+    color: $text-color
+    resize: none
+    outline: none
+    margin-bottom: 2px
+    background-color: #fff
+    border-radius: 4px
+    padding: 18px 23px
+    border: none
+  &__infoButton
+    margin-top: 15px
+  &__button
+    font-family: Roboto
+    min-width: 160px
+    padding: 18px
+    font-style: normal
+    font-weight: bold
+    font-size: 12px
+    line-height: 15px
+    color: white
+    background-color: #183B56
+    border-radius: 4px
+    border: none
+    outline: none
+    cursor: pointer
+  &__info
+    font-family: Roboto
+    font-style: normal
+    font-weight: bold
+    font-size: 12px
+    line-height: 15px
+    color: #fff
+  &__infoButton
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 100%
+  &__form
+    #name-error
+      top: 114px
+      right: 80px
+    #phone-error
+      top: 177px
+      right: 80px
+    #email-error
+      top: 242px
+      right: 80px
+.form
+  label.invalid
+    position: absolute
+    font-family: Open Sans
+    font-size: 13px
+    color: tomato
+    font-weight: bold
