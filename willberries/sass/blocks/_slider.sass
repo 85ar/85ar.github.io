@@ -1,0 +1,82 @@
+.slide-1
+  background: #B4D1E0 url('../img/sweater.png')
+  background-repeat: no-repeat
+  background-position: top right 5%
+.slide-2
+  background: #C2C2C2 url('../img/sweater.png')
+  background-repeat: no-repeat
+  background-position: top right 5%
+.slide-3
+  background: #dfc8c8 url('../img/sweater.png')
+  background-repeat: no-repeat
+  background-position: top right 5%
+.slider
+  &-button
+    background-color: #4592FF
+    border-radius: 20px
+    padding: 10px 25px
+    &__price, &__buy
+      font-family: Lato
+      font-style: normal
+      font-weight: 900
+      font-size: 14px
+      line-height: 20px
+      color: #FFFFFF
+    &__price
+      margin-right: 10px
+  &-group
+    margin-bottom: 60px
+
+.swiper
+  &-container
+    width: 1366px
+    margin: auto
+  &-slide
+    padding: 90px 780px 110px 210px
+    &__label
+      padding: 5px 12px
+      background-color: #3DC47E
+      border-radius: 3px
+      font-family: Lato
+      font-style: normal
+      font-weight: bold
+      font-size: 12px
+      line-height: 15px
+      color: #FFFFFF
+      margin-bottom: 20px
+    &__image
+      position: absolute
+      top: 0
+      right: 0
+    &__title
+      font-family: Roboto Slab
+      font-style: normal
+      font-weight: bold
+      font-size: 55px
+      line-height: 70px
+      color: #262D33
+      margin-bottom: 15px
+    &__text
+      font-family: Lato
+      font-style: normal
+      font-weight: normal
+      font-size: 18px
+      line-height: 30px
+      color: #4B5157
+      margin-bottom: 40px
+      width: 335px
+  &-button
+    &-prev, &-next
+      &::after
+        display: none
+      width: 60px
+      height: 60px
+      opacity: 0.7
+      border-radius: 50%
+      outline: none
+    &-prev
+      background: #B4D1E0 url('../img/arrow-left.svg')
+      left: 107px
+    &-next
+      background: #B4D1E0 url('../img/arrow-right.svg')
+      right: 108px
