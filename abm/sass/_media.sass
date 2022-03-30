@@ -1,0 +1,274 @@
+@media (min-width: 1251px)
+  .phone
+    &__icon
+      display: none
+@media (min-width: 925px)
+  .item
+    &__new
+      display: none
+@media (max-width: 1650px)
+  .container
+    max-width: 1500px
+@media (max-width: 1550px)
+  .container
+    max-width: 1400px
+  .header
+    &__logo
+      margin-right: 80px
+  .navbar
+    margin-right: 100px
+@media (max-width: 1450px)
+  .container
+    max-width: 1200px
+  .header
+    &__logo
+      margin-right: 30px
+  .navbar
+    margin-right: 50px
+  .header
+    &-phone
+      &-search
+        width: 240px
+        margin-right: 25px
+@media (max-width: 1250px)
+  .container
+    max-width: 1100px
+  .hero
+    &__title
+      width: 250px
+  .phone
+    width: 70px
+    &__icon
+      display: block
+  .header
+    &__phone
+      display: none
+
+@media (max-width: 1135px)
+  .container
+    max-width: 900px
+  .navbar
+    margin-right: 30px
+    &__item
+      font-size: 16px
+  .dropdown
+    &-content
+      &__link
+        font-size: 16px
+    &-language
+      &__link
+        font-size: 14px
+  .language
+    &__lang
+      font-size: 14px
+  .header
+    background-position: 450px -248px
+    background-size: 1300px 1300px
+    &__logo
+      width: 60px
+      height: 40px
+    &-hero
+      padding-right: 100px
+  .hero
+    &__title
+      font-size: 16px
+    &__text
+      font-size: 35px
+      width: 700px
+
+@media (max-width: 925px)
+  .container
+    width: 87.5%
+  .hidden
+    display: none
+  .language
+    width: 100px
+@media (max-width: 769px)
+  
+  .container
+    width: 87.5%
+  .navbar
+    display: none
+    position: fixed
+    left: 0
+    right: 0
+    bottom: 0
+    top: 120px
+    background-color: $secondary
+    width: 100%    
+    &--visible
+      display: block
+      overflow-y: auto
+    &__list
+      flex-direction: column
+      width: 100%
+      padding-top: 20px
+    &__item
+      margin-bottom: 20px
+    &--mobile
+      &-fixed
+        position: fixed
+        width: inherit
+  .active
+    background-color: black
+    left: 0
+    top: 0    
+    padding: 42px
+    width: 100%
+  .dropdown
+    &-content
+      display: block
+      right: -38px
+      position: relative
+      &__link
+        font-size: 14px
+  .language
+    display: none
+  .phone
+    margin-right: 5px
+    align-items: center
+  .header
+    background-position: 450px -248px
+    background-size: 1000px 1000px
+    &__logo
+      width: 73px
+      height: 41px
+      margin-right: 95px
+    &-hero
+      padding-bottom: 50px
+    &__info
+      display: flex
+      align-items: center
+    &-wrapper
+      justify-content: space-between
+
+  .hero
+    &__text
+      font-size: 30px
+      width: 480px
+    &__link
+      display: none
+    &__block
+      margin-bottom: 0
+    &--mobile
+      &-fixed
+        position: fixed
+        left: 0
+        top: 0
+        right: 0
+        z-index: 99
+      &--hidden
+        display: none
+      &--visible
+        display: flex
+        margin: auto
+    &-menu
+      flex-direction: column
+      padding-top: 0
+      &__item
+        &--mobile
+          &--visible
+            display: block
+  .menu
+    &-button
+      display: flex
+      width: 20px
+      height: 16px
+      padding: 0
+      align-items: center
+      justify-content: space-between
+      flex-direction: column
+      border: none
+      background-color: transparent
+      cursor: pointer
+      &__line
+        width: 20px
+        height: 1px
+        background-color: white
+@media (max-width: 576px)
+  .hero
+    &__title
+      font-size: 14px
+      margin-bottom: 8px
+    &__text
+      font-size: 26px
+      width: 400px
+      line-height: 36px
+  .details
+    width: 122px
+    &__link
+      font-size: 10px
+      line-height: 32px
+      letter-spacing: 0.12em
+    &__line
+      width: 40px
+  .header
+    background: #07070B url('../img/second-image.png')
+    background-repeat: no-repeat
+    background-position: 70px -248px
+  &-hero
+      padding-bottom: 20px
+@media (min-width: 320px) and (max-width: 480px)
+  .header
+    padding-top: 24px
+    background-position: -61px -213px
+    &-hero
+      padding-top: 201px
+      padding-bottom: 16px
+  .hero
+    &__block
+      width: 100%
+    &__text
+      font-size: 24px
+      width: 284px
+      line-height: 28px
+      height: 196px
+      margin-bottom: 16px
+  .navbar
+    top: 85px
+@media (min-width: 764px)
+  .dropdown
+    &-link
+      &:hover
+        color: $secondary
+        .navbar__icon
+          fill: $secondary
+          stroke: #b92626
+
+    &-content
+      &__link
+        &:hover
+          color: $secondary
+  .navbar
+    &__item
+      &--dropdown
+          &:hover .dropdown-content
+            display: block
+  .header
+    &__phone
+      &:hover
+        color: $secondary
+  .details
+    &__link
+      &:hover
+        color: $secondary
+  .hero
+    &__next
+      &:hover
+        fill: #b92626
+  .language
+    &:hover .dropdown-language
+      display: block
+  .dropdown
+    &-language
+      &__link
+        &:hover
+          color: $secondary
+  .item
+    &__new
+      &:hover .dropdown-new
+        display: block
+  .dropdown
+    &-new
+      &:hover
+        color: $secondary

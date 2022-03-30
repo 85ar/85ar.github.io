@@ -1,0 +1,44 @@
+<svg display="none" xmlns="http://www.w3.org/2000/svg">
+  <svg>
+    <symbol id="angle-down" viewBox="0 0 18 18">
+      <g>
+      <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="18" height="18">
+      <rect width="18" height="18" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 18 0)" />
+      </mask>
+      <g mask="url(#mask0)">
+      <path d="M3.375 7.875L9 13.5L14.625 7.875" stroke="white" stroke-width="2"/>
+      </g>
+      </g>
+    </symbol>
+    <symbol id="search" viewBox="0 0 32 32">
+      <g>
+      <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+      <rect width="32" height="32" fill="#C4C4C4" />
+      </mask>
+      <g mask="url(#mask0)">
+      <mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="28" height="28">
+      <rect x="2" y="2" width="28" height="28" fill="#C4C4C4" />
+      </mask>
+      <g mask="url(#mask1)">
+      <circle cx="14.0119" cy="14.0117" r="6.875" transform="rotate(-45 14.0119 14.0117)" stroke="white" stroke-width="2"/>
+      <path d="M18.6523 19.271L25.1489 25.7675" stroke="white" stroke-width="2"/>
+      </g>
+      </g>
+      </g>
+    </symbol>
+    <symbol id="next" viewBox="0 0 19 45">
+      <g>
+      <mask id="path-1-inside-1" fill="white">
+      <path d="M0 9.375C0 4.19733 4.19733 0 9.375 0C14.5527 0 18.75 4.19733 18.75 9.375V20.625C18.75 25.8027 14.5527 30 9.375 30C4.19733 30 0 25.8027 0 20.625V9.375Z"/>
+      </mask>
+      <path d="M16.75 9.375V20.625H20.75V9.375H16.75ZM2 20.625V9.375H-2V20.625H2ZM9.375 28C5.3019 28 2 24.6981 2 20.625H-2C-2 26.9072 3.09276 32 9.375 32V28ZM16.75 20.625C16.75 24.6981 13.4481 28 9.375 28V32C15.6572 32 20.75 26.9072 20.75 20.625H16.75ZM9.375 2C13.4481 2 16.75 5.3019 16.75 9.375H20.75C20.75 3.09276 15.6572 -2 9.375 -2V2ZM9.375 -2C3.09276 -2 -2 3.09276 -2 9.375H2C2 5.3019 5.3019 2 9.375 2V-2Z" fill="white" mask="url(#path-1-inside-1)"/>
+      <path d="M3 39L9 43L15 39" stroke="white" stroke-width="2"/>
+      <path d="M9.5 6V14" stroke="white" stroke-width="2"/>
+      </g>
+    </symbol>
+    <symbol id="phone" viewBox="0 0 32 32">
+      <g>
+      <path d="M9.62435 14.5656C11.331 17.9197 14.0807 20.6693 17.4347 22.376L20.0421 19.7686C20.374 19.4367 20.8362 19.3419 21.251 19.4723C22.5784 19.9108 24.0007 20.1478 25.4821 20.1478C25.7965 20.1478 26.0979 20.2727 26.3202 20.495C26.5425 20.7172 26.6673 21.0187 26.6673 21.333V25.4812C26.6673 25.7955 26.5425 26.0969 26.3202 26.3192C26.0979 26.5415 25.7965 26.6663 25.4821 26.6663C20.1385 26.6663 15.0138 24.5436 11.2352 20.7651C7.45673 16.9866 5.33398 11.8618 5.33398 6.51819C5.33398 6.20386 5.45885 5.90241 5.68112 5.68014C5.90338 5.45788 6.20484 5.33301 6.51917 5.33301H10.6673C10.9816 5.33301 11.2831 5.45788 11.5054 5.68014C11.7276 5.90241 11.8525 6.20386 11.8525 6.51819C11.8525 7.99967 12.0895 9.4219 12.5281 10.7493C12.6584 11.1641 12.5636 11.6263 12.2318 11.9582L9.62435 14.5656Z" fill="white"/>
+      </g>
+    </symbol>
+</svg>

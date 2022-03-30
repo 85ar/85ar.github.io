@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>АБМ Cервис групп</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapper navbar--mobile-fixed">
+          <a href="index.html" class="header__link">
+            <img
+              src="img/icon.svg"
+              alt="icon: icon logo"
+              class="header__logo"
+            />
+          </a>
+          <nav class="header__nav navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item navbar__item--dropdown">
+                <a href="#" class="navbar__link dropdown-link">
+                  Продукция
+                  <svg width="18" height="18" class="navbar__icon">
+                    <use xlink:href="img/icons.svg#angle-down"></use>
+                  </svg>
+                </a>
+                <div class="dropdown-content">
+                  <a class="dropdown-content__link" href="#">Ссылка 1</a>
+                  <a class="dropdown-content__link" href="#">Ссылка 2</a>
+                  <a class="dropdown-content__link" href="#">Ссылка 3</a>
+                </div>
+              </li>
+              <li class="navbar__item navbar__item--dropdown">
+                <a href="#" class="navbar__link dropdown-link">
+                  Услуги
+                  <svg width="18" height="18" class="navbar__icon">
+                    <use xlink:href="img/icons.svg#angle-down"></use>
+                  </svg>
+                </a>
+                <div class="dropdown-content">
+                  <a class="dropdown-content__link" href="#">Ремонт</a>
+                  <a class="dropdown-content__link" href="#">Прокат</a>
+                  <a class="dropdown-content__link" href="#">Сопровождение</a>
+                </div>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link dropdown-link">О компании</a>
+              </li>
+              <li class="navbar__item item__new">
+                <a href="#" class="navbar__link dropdown-link__new"
+                  >Еще
+                  <svg width="18" height="18" class="navbar__icon">
+                    <use xlink:href="img/icons.svg#angle-down"></use>
+                  </svg>
+                </a>
+                <div class="dropdown-content dropdown-new">
+                  <a class="dropdown-content__link" href="#">Новости</a>
+                  <a class="dropdown-content__link" href="#">Галерея</a>
+                  <a class="dropdown-content__link" href="#">Вакансии</a>
+                  <a class="dropdown-content__link" href="#">Контакты</a>
+                </div>
+              </li>
+              <li class="navbar__item hidden">
+                <a href="#" class="navbar__link dropdown-link">Новости</a>
+              </li>
+              <li class="navbar__item hidden">
+                <a href="#" class="navbar__link dropdown-link">Галерея</a>
+              </li>
+              <li class="navbar__item hidden">
+                <a href="#" class="navbar__link dropdown-link">Вакансии</a>
+              </li>
+              <li class="navbar__item hidden">
+                <a href="#" class="navbar__link dropdown-link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- /nav -->
+          <div class="header__info">
+            <div class="header-phone-search phone">
+              <a href="tel:+73476743994" class="header__phone"
+                >+7 (34767) 4-39-94</a
+              >
+              <svg width="32" height="32" class="phone__icon">
+                <use xlink:href="img/icons.svg#phone"></use>
+              </svg>
+              <button class="header__search search">
+                <svg width="32" height="32" class="search__icon">
+                  <use xlink:href="img/icons.svg#search"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="header-language language">
+              <span class="language__lang">RU</span>
+              <img src="img/flag.png" alt="icon: flag" class="language__flag" />
+              <svg width="18" height="18" class="language__switch">
+                <use xlink:href="img/icons.svg#angle-down"></use>
+              </svg>
+              <div class="dropdown-language">
+                <a class="dropdown-language__link" href="#">En</a>
+              </div>
+            </div>
+            <button class="menu-button navbar-top__menu-button">
+              <span class="menu-button__line"></span>
+              <span class="menu-button__line"></span>
+              <span class="menu-button__line"></span>
+            </button>
+          </div>
+        </div>
+        <!-- /header-wrapper -->
+        <div class="header-hero hero">
+          <div class="hero__block">
+            <h1 class="hero__title">АБМ Сервис групп</h1>
+            <p class="hero__text">
+              Проектирование, производство пакерного оборудования <br />
+              и компоновок для нефтяных <br />
+              и газовых скважин
+            </p>
+            <div class="hero__details details">
+              <div class="details__line"></div>
+              <a href="#" class="details__link">Подробнее</a>
+            </div>
+          </div>
+          <!-- /hero__block -->
+          <a href="#" class="hero__link">
+            <svg width="19" height="45" class="hero__next">
+              <use xlink:href="img/icons.svg#next"></use>
+            </svg>
+          </a>
+        </div>
+        <!-- /.header-hero -->
+      </div>
+    </header>
+    <!-- /.header -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
