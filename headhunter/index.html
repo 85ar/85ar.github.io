@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Your Job</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrapper">
+          <a href="index.html" class="header__link">
+            <svg width="30" height="30" class="header__logo">
+              <use xlink:href="img/icons.svg#logo-image"></use>
+            </svg>
+            <svg width="91" height="13" class="header__logo-text">
+              <use xlink:href="img/icons.svg#logo-text"></use>
+            </svg>
+          </a>
+          <nav class="header__nav navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Главная</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Вакансии</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link">Компании</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__buttons">
+            <a href="#" class="header__signin">Войти</a>
+            <button class="header__registration button">Регистрация</button>
+          </div>
+          <button class="menu-button navbar-top__menu-button">
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+            <span class="menu-button__line"></span>
+          </button>
+        </div>
+        <!-- /.header-wrapper -->
+        <div class="header-hero hero">
+          <div class="hero__text">
+            <h1 class="hero__title">Найдите удаленную работу вашей мечты</h1>
+            <p class="hero__description">
+              Создайте резюме или отправьте отклик на вакансию в компании с
+              мировым именем и работайте <br />
+              по свободному графику
+            </p>
+            <div class="input-group">
+              <input
+                type="text"
+                class="input-group__text"
+                placeholder="Начните поиск"
+              />
+              <button class="input-group__button input-button button">
+                <svg width="15" height="15" class="input-button__icon">
+                  <use xlink:href="img/icons.svg#search"></use>
+                </svg>
+                <span class="input-button__text">Искать вакансии</span>
+              </button>
+            </div>
+            <!-- /.input-group" -->
+            <div class="hero-example example">
+              <span class="example__title">Например:</span>
+              <div class="example__tags tags">
+                <a href="#" class="tags__link">Front-end</a>
+                <a href="#" class="tags__link">Back-end</a>
+                <a href="#" class="tags__link">Designer</a>
+              </div>
+            </div>
+            <!-- /.hero-example -->
+          </div>
+          <!-- /.hero__text -->
+          <img
+            src="img/hero-image.png"
+            alt="image: hero-image"
+            class="hero__image"
+          />
+        </div>
+        <!-- /.header-hero -->
+      </div>
+    </header>
+    <!-- /.header -->
+    <main class="main">
+      <section class="categories">
+        <div class="container">
+          <h3 class="categories__title">Категории</h3>
+          <div class="categories__cards cards">
+            <a href="#" class="cards__item"
+              ><svg width="24" height="24" class="cards__icon">
+                <use xlink:href="img/icons.svg#brush"></use>
+              </svg>
+              <span class="cards__name">Дизайн</span></a
+            >
+            <a href="#" class="cards__item"
+              ><svg width="28" height="24" class="cards__icon">
+                <use xlink:href="img/icons.svg#browser"></use>
+              </svg>
+              <span class="cards__name">Разработка</span></a
+            >
+            <a href="#" class="cards__item"
+              ><svg width="24" height="24" class="cards__icon">
+                <use xlink:href="img/icons.svg#edit"></use>
+              </svg>
+              <span class="cards__name">Копирайтинг</span></a
+            >
+            <a href="#" class="cards__item">
+              <svg width="24" height="25" class="cards__icon">
+                <use xlink:href="img/icons.svg#fingerprint"></use>
+              </svg>
+              <span class="cards__name">Безопасность</span></a
+            >
+            <a href="#" class="cards__item"
+              ><svg width="24" height="24" class="cards__icon">
+                <use xlink:href="img/icons.svg#camera"></use>
+              </svg>
+              <span class="cards__name">Видео</span></a
+            >
+            <a href="#" class="cards__item"
+              ><svg width="24" height="24" class="cards__icon">
+                <use xlink:href="img/icons.svg#school"></use>
+              </svg>
+              <span class="cards__name">Образование</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- /.categories -->
+      <section class="jobs">
+        <div class="container">
+          <h3 class="jobs__title">Свежие вакансии</h3>
+          <div class="jobs__cards offers">
+            <div class="offers__item">
+              <a href="#" class="offers__company"
+                ><img
+                  src="img/avatar.png"
+                  alt="logo: avatar company"
+                  class="offers__image"
+              /></a>
+              <div class="offers__text offers-text">
+                <a href="#" class="offers-text__title">Front-end разработчик</a>
+                <span class="offers-text__place">Технопарк, Казань</span>
+              </div>
+              <span class="offers__salary">65 000 ₽</span>
+              <div class="offers__demands demands">
+                <span class="demands__title">Требования:</span>
+                <div class="demands__skils skils">
+                  <span class="skils__item">React</span>
+                  <span class="skils__item">Sass</span>
+                  <span class="skils__item">Figma</span>
+                </div>
+              </div>
+              <a href="#" class="offers__details">Подробнее →</a>
+            </div>
+            <!-- /.offers__item -->
+            <div class="offers__item">
+              <a href="#" class="offers__company"
+                ><img
+                  src="img/avatar.png"
+                  alt="logo: avatar company"
+                  class="offers__image"
+              /></a>
+              <div class="offers__text offers-text">
+                <a href="#" class="offers-text__title">Front-end разработчик</a>
+                <span class="offers-text__place">Технопарк, Казань</span>
+              </div>
+              <span class="offers__salary">65 000 ₽</span>
+              <div class="offers__demands demands">
+                <span class="demands__title">Требования:</span>
+                <div class="demands__skils skils">
+                  <span class="skils__item">React</span>
+                  <span class="skils__item">Sass</span>
+                  <span class="skils__item">Figma</span>
+                </div>
+              </div>
+              <a href="#" class="offers__details">Подробнее →</a>
+            </div>
+            <!-- /.offers__item -->
+            <div class="offers__item">
+              <a href="#" class="offers__company"
+                ><img
+                  src="img/avatar.png"
+                  alt="logo: avatar company"
+                  class="offers__image"
+              /></a>
+              <div class="offers__text offers-text">
+                <a href="#" class="offers-text__title">Front-end разработчик</a>
+                <span class="offers-text__place">Технопарк, Казань</span>
+              </div>
+              <span class="offers__salary">65 000 ₽</span>
+              <div class="offers__demands demands">
+                <span class="demands__title">Требования:</span>
+                <div class="demands__skils skils">
+                  <span class="skils__item">React</span>
+                  <span class="skils__item">Sass</span>
+                  <span class="skils__item">Figma</span>
+                </div>
+              </div>
+              <a href="#" class="offers__details">Подробнее →</a>
+            </div>
+            <!-- /.offers__item -->
+            <div class="offers__item">
+              <a href="#" class="offers__company"
+                ><img
+                  src="img/avatar.png"
+                  alt="logo: avatar company"
+                  class="offers__image"
+              /></a>
+              <div class="offers__text offers-text">
+                <a href="#" class="offers-text__title">Front-end разработчик</a>
+                <span class="offers-text__place">Технопарк, Казань</span>
+              </div>
+              <span class="offers__salary">65 000 ₽</span>
+              <div class="offers__demands demands">
+                <span class="demands__title">Требования:</span>
+                <div class="demands__skils skils">
+                  <span class="skils__item">React</span>
+                  <span class="skils__item">Sass</span>
+                  <span class="skils__item">Figma</span>
+                </div>
+              </div>
+              <a href="#" class="offers__details">Подробнее →</a>
+            </div>
+            <!-- /.offers__item -->
+          </div>
+          <!-- /.offers -->
+          <button class="jobs__more button">Больше вакансий</button>
+        </div>
+      </section>
+      <!-- /.jobs -->
+      <section class="subscription">
+        <div class="container">
+          <div class="subscription-wrapper">
+            <h2 class="subscription__title">
+              Подпишитесь на рассылку с новыми вакансиями
+            </h2>
+            <p class="subscription__subtitle">
+              Мы отправляем по одному письму в неделю <br />
+              с подходящими вам вакансиями
+            </p>
+            <div class="input-group">
+              <input
+                type="text"
+                class="input-group__text"
+                placeholder="E-mail"
+              />
+              <button class="input-group__button input-button button">
+                <svg width="15" height="15" class="input-button__icon">
+                  <use xlink:href="img/icons.svg#email"></use>
+                </svg>
+                <span class="input-button__text">Подписаться</span>
+              </button>
+            </div>
+            <!-- /.input-group" -->
+          </div>
+        </div>
+      </section>
+      <!-- /.subscription -->
+    </main>
+    <!-- /.main -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer__logo footer-logo">
+            <a href="index.html" class="header__link footer-link">
+              <svg width="30" height="30" class="header__logo">
+                <use xlink:href="img/icons.svg#logo-image"></use>
+              </svg>
+              <svg width="91" height="13" class="header__logo-text">
+                <use xlink:href="img/icons.svg#logo-text"></use>
+              </svg>
+            </a>
+            <p class="footer-logo__text">
+              Сайт с вакансиями для тех, кто ищет удаленную работу
+            </p>
+            <span class="footer-logo__copyright">© 2021</span>
+          </div>
+          <!-- /.footer-logo -->
+          <div class="footer-description">
+            <div class="footer__contact footer-contact">
+              <h3 class="footer-contact__title footer-title">Свяжитесь с нами</h3>
+              <ul class="footer-contact__list">
+                <li class="footer-contact__item footer-item">
+                  <a href="tel:88002020300" class="footer-contact__link footer-desc">8 800 20 20 300</a>
+                </li>
+                <li class="footer-contact__item footer-item">
+                  <a href="mailto:info@findyourjob.net" class="footer-contact__link footer-desc"
+                    >info@findyourjob.net</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- /.footer-contact -->
+            <div class="footer__info footer-info">
+              <h3 class="footer-info__title footer-title">Информация</h3>
+              <ul class="footer-info__list">
+                <li class="footer-info__item footer-item">
+                  <a href="#" class="footer-info__link footer-desc">Обработка данных</a>
+                </li>
+                <li class="footer-info__item footer-item">
+                  <a href="#" class="footer-info__link footer-desc">Конфиденциальность</a>
+                </li>
+                <li class="footer-info__item footer-item">
+                  <a href="#" class="footer-info__link footer-desc">Публичная оферта</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.footer-info -->
+            <div class="footer__navigation footer-navigation">
+              <h3 class="footer-navigation__title footer-title">Навигация по сайту</h3>
+              <ul class="footer-navigation__list">
+                <li class="footer-navigation__item footer-item">
+                  <a href="#" class="footer-navigation__link footer-desc">Вакансии</a>
+                </li>
+                <li class="footer-navigation__item footer-item">
+                  <a href="#" class="footer-navigation__link footer-desc">Компании</a>
+                </li>
+                <li class="footer-navigation__item footer-item">
+                  <a href="#" class="footer-navigation__link footer-desc">Контакты</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.footer-navigation -->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
