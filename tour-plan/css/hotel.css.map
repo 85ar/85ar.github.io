@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;CAAG",
+    "sources": [
+        "../sass/blocks/hotel.sass"
+    ],
+    "names": [],
+    "file": "hotel.css"
+}
