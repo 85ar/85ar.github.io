@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OJJO - ювелирный магазин</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper navbar">
+          <nav class="navbar__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Контрагентам</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Дизайнерам</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Вакансии</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="index.html" class="navbar__link">
+            <img src="img/logo.png" alt="logo" class="navbar__logo" />
+          </a>
+          <a href="#" class="navbar__search search">
+            <svg width="24" height="24" class="search__icon">
+              <use xlink:href="img/icons.svg#gridicons_search"></use>
+            </svg>
+            <span class="search__title">Поиск</span>
+          </a>
+          <div class="navbar__accountLinks accounts">
+            <button class="accounts__login" type="submit">Вход/Регистрация</button>
+            <a href="#" class="accounts__link">
+              <svg width="24" height="24" class="accounts__icon">
+                <use xlink:href="img/icons.svg#mdi_account"></use>
+              </svg>
+            </a>
+            <a href="#" class="accounts__link">
+              <svg width="18" height="18" class="accounts__icon">
+                <use xlink:href="img/icons.svg#topcoat_like"></use>
+              </svg>
+            </a>
+          </div>
+          <!-- /accounts -->
+        </div>
+        <!-- /navbar -->
+        <h1 class="header__title">Долго, дорого, богато!</h1>
+        <form action="catalog.html" class="header__form">
+          <button class="header__button" type="submit">каталог изделий</button>
+        </form>
+
+        <div class="header__line"></div>
+        <div class="header__brands brands">
+          <a href="#" class="brands__link">
+            <img src="img/brands-item.png" alt="item" class="brands__item" />
+          </a>
+          <a href="#" class="brands__link">
+            <img src="img/brands-item.png" alt="item" class="brands__item" />
+          </a>
+          <a href="#" class="brands__link">
+            <img src="img/brands-item.png" alt="item" class="brands__item" />
+          </a>
+          <a href="#" class="brands__link">
+            <img src="img/brands-item.png" alt="item" class="brands__item" />
+          </a>
+          <a href="#" class="brands__link">
+            <img src="img/brands-item.png" alt="item" class="brands__item" />
+          </a>
+          <a href="#" class="brands__link">
+            <img src="img/brands-item.png" alt="item" class="brands__item" />
+          </a>
+        </div>
+        <!-- /brands -->
+      </div>
+      <!-- /container -->
+    </header>
+    <section class="categories">
+      <div class="container">
+        <h3 class="categories__subtitle">К мероприятиям</h3>
+        <h2 class="categories__title">Настоящая красота здесь!</h2>
+        <div class="categories__list categories-list">
+          <button class="categories-list__item">Свадьба</button>
+          <button class="categories-list__item">Мужу</button>
+          <button class="categories-list__item">Жене</button>
+          <button class="categories-list__item">Партнеру</button>
+          <button class="categories-list__item">Коллекции</button>
+          <button class="categories-list__item">Редкость</button>
+        </div>
+        <!-- /categories-list -->
+        <div class="categories__catalog catalog">
+          <a href="#" class="catalog__link">
+            <img
+              src="img/catalog-item-1.png"
+              alt="item"
+              class="catalog__item"
+            />
+          </a>
+          <a href="#" class="catalog__link">
+            <img
+              src="img/catalog-item-2.png"
+              alt="item"
+              class="catalog__item"
+            />
+          </a>
+          <a href="#" class="catalog__link">
+            <img
+              src="img/catalog-item-3.png"
+              alt="item"
+              class="catalog__item"
+            />
+          </a>
+          <a href="#" class="catalog__link">
+            <img
+              src="img/catalog-item-4.png"
+              alt="item"
+              class="catalog__item"
+            />
+          </a>
+          <a href="#" class="catalog__link">
+            <img
+              src="img/catalog-item-5.png"
+              alt="item"
+              class="catalog__item"
+            />
+          </a>
+          <a href="#" class="catalog__link">
+            <img
+              src="img/catalog-item-6.png"
+              alt="item"
+              class="catalog__item"
+            />
+          </a>
+        </div>
+        <!-- /catalog -->
+      </div>
+      <!-- /container -->
+    </section>
+    <!-- /.categories -->
+    <section class="salon">
+      <div class="container">
+        <h3 class="salon__subtitle">Не знаете, что выбрать?</h3>
+        <h2 class="salon__title">Посетите наши салоны в Москве</h2>
+        <p class="salon__description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut duis
+          tortor vitae pellentesque egestas quam pulvinar. Pellentesque
+          porttitor velit sit pellentesque. Suspendisse donec pretium id
+          dignissim. Dignissim ultrices eget orci viverra. Egestas quis et ut
+          ultrices imperdiet lectus nulla tempus. Pharetra lorem sem purus nisi
+          libero viverra ipsum.
+        </p>
+        <button class="salon__button">наши салоны</button>
+      </div>
+    </section>
+    <!-- /salon -->
+    <section class="blog">
+      <div class="container">
+        <h3 class="blog__subtitle">Полезные статьи</h3>
+        <h2 class="blog__title">Лучшие советы по подбору дорогих подарков</h2>
+        <div class="blog__cards blog-card">
+          <a href="#" class="blog-card__link">
+            <img
+              src="img/blog__item-1.png"
+              alt="blog"
+              class="blog-card__item"
+            />
+          </a>
+          <a href="#" class="blog-card__link">
+            <img
+              src="img/blog__item-2.png"
+              alt="blog"
+              class="blog-card__item"
+            />
+          </a>
+          <a href="#" class="blog-card__link">
+            <img
+              src="img/blog__item-3.png"
+              alt="blog"
+              class="blog-card__item"
+            />
+          </a>
+        </div>
+        <!-- /card -->
+        <button class="blog__button">читать наш блог</button>
+      </div>
+      <!-- /container -->
+    </section>
+    <!-- /blog -->
+    <section class="gallery">
+      <div class="container">
+        <h3 class="gallery__subtitle">#ojjo_jewerly</h3>
+        <h2 class="gallery__title">Мы в социальных сетях</h2>
+        <div class="gallery__cards">
+          <a href="#" class="gallery__link">
+            <img
+              src="img/gallery__item-1.png"
+              alt="gallery"
+              class="gallery__item"
+            />
+          </a>
+          <a href="#" class="gallery__link">
+            <img
+              src="img/gallery__item-2.png"
+              alt="gallery"
+              class="gallery__item"
+            />
+          </a>
+          <a href="#" class="gallery__link">
+            <img
+              src="img/gallery__item-3.png"
+              alt="gallery"
+              class="gallery__item"
+            />
+          </a>
+          <a href="#" class="gallery__link">
+            <img
+              src="img/gallery__item-4.png"
+              alt="gallery"
+              class="gallery__item"
+            />
+          </a>
+          <a href="#" class="gallery__link">
+            <img
+              src="img/gallery__item-5.png"
+              alt="gallery"
+              class="gallery__item"
+            />
+          </a>
+          <a href="#" class="gallery__link">
+            <img
+              src="img/gallery__item-6.png"
+              alt="gallery"
+              class="gallery__item"
+            />
+          </a>
+        </div>
+        <!-- /card -->
+      </div>
+      <!-- /container -->
+    </section>
+    <!-- /gallery -->
+    <section class="subscribe">
+      <div class="container">
+        <h3 class="subscribe__subtitle">
+          Полезные советы и персональный предложения
+        </h3>
+        <h2 class="subscribe__title">Эксклюзивная рассылка</h2>
+        <div class="subscribe__wrapper">
+          <div class="subscribe__block subscribe-block">
+            <ul class="subscribe-block__list">
+              <li class="subscribe-block__item">
+                <a href="#" class="subscribe-block__link subscribe-link">
+                  <svg width="17" height="17" class="subscribe-link__icon">
+                    <use xlink:href="img/icons.svg#subscribe__icon"></use>
+                  </svg>
+                  <span class="subscribe-link__name">Личный менеджер</span>
+                </a>
+              </li>
+              <li class="subscribe-block__item">
+                <a href="#" class="subscribe-block__link subscribe-link">
+                  <svg width="17" height="17" class="subscribe-link__icon">
+                    <use xlink:href="img/icons.svg#subscribe__icon"></use>
+                  </svg>
+                  <span class="subscribe-link__name"
+                    >Доставка и оформление</span
+                  >
+                </a>
+              </li>
+              <li class="subscribe-block__item">
+                <a href="#" class="subscribe-block__link subscribe-link">
+                  <svg width="17" height="17" class="subscribe-link__icon">
+                    <use xlink:href="img/icons.svg#subscribe__icon"></use>
+                  </svg>
+                  <span class="subscribe-link__name"
+                    >Индивидуальный дизайн</span
+                  >
+                </a>
+              </li>
+            </ul>
+            <!-- /block__list -->
+          </div>
+          <!-- /block -->
+          <div class="subscribe__input-group input">
+            <div class="input__wrapper">
+              <input
+                type="email"
+                class="input__text"
+                placeholder="Ваш e-mail"
+              />
+              <button class="input__button" type="submit">отправить</button>
+            </div>
+          </div>
+          <!-- /.subscribe__input-group -->
+        </div>
+      </div>
+      <!-- /container -->
+    </section>
+    <!-- /subscribe -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__links footer-links">
+          <div class="footer-links__useful footer-useful">
+            <h3 class="footer-useful__title footer-title">Полезные ссылки</h3>
+            <div class="footer-useful__line footer-line"></div>
+            <ul class="footer-useful__list footer-list">
+              <li class="footer-list__item">
+                <a href="#" class="footer-list__link footer-link">Доставка</a>
+              </li>
+              <li class="footer-list__item">
+                <a href="#" class="footer-list__link footer-link">Оплата</a>
+              </li>
+              <li class="footer-list__item">
+                <a href="#" class="footer-list__link footer-link">Акции</a>
+              </li>
+              <li class="footer-list__item">
+                <a href="#" class="footer-list__link footer-link"
+                  >Политика конфиденциальности</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- /footer-useful -->
+          <div class="footer-links__payment footer-payment">
+            <h3 class="footer-payment__title footer-title">оплата</h3>
+            <div class="footer-payment__line footer-line"></div>
+            <p class="footer-payment__text footer-link">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper justo, nec, pellentesque.
+            </p>
+            <div class="footer-payment__icons">
+              <a href="#" class="footer-payment__link">
+                <img
+                  src="img/visa_icon.png"
+                  alt="visa"
+                  class="footer-payment__icon"
+                />
+              </a>
+              <a href="#" class="footer-payment__link">
+                <img
+                  src="img/mastercard-icon.png"
+                  alt=""
+                  class="footer-payment__icon"
+                />
+              </a>
+            </div>
+          </div>
+          <!-- /footer-payment -->
+
+          <div class="footer-links__contacts footer-contacts">
+            <h3 class="footer-contacts__title footer-title">контакты</h3>
+            <div class="footer-contacts__line footer-line"></div>
+            <div class="footer-contacts__number footer-number">
+              <svg width="20" height="20" class="footer-number__icon">
+                <use xlink:href="img/icons.svg#phone"></use>
+              </svg>
+              <a href="tel:88122345655" class="footer-number__phone"
+                >8 (812) 234-56-55</a
+              >
+            </div>
+            <!-- /footer-numbers -->
+            <div class="footer-contacts__number footer-number">
+              <svg width="20" height="20" class="footer-number__icon">
+                <use xlink:href="img/icons.svg#phone"></use>
+              </svg>
+              <a href="tel:88122345655" class="footer-number__phone"
+                >8 (812) 234-56-55</a
+              >
+            </div>
+            <!-- /footer-numbers -->
+            <div class="footer-contacts__mail footer-mail">
+              <svg width="20" height="20" class="footer-mail__icon">
+                <use xlink:href="img/icons.svg#mail"></use>
+              </svg>
+              <a href="mailto:ojjo@ojjo.ru" class="footer-mail__mailto"
+                >ojjo@ojjo.ru</a
+              >
+            </div>
+            <!-- /footer-numbers -->
+          </div>
+          <!-- /footer-contacts -->
+
+          <div class="footer-links__social footer-social">
+            <h3 class="footer-social__title footer-title">социальные сети</h3>
+            <div class="footer-social__line footer-line"></div>
+            <p class="footer-social__text footer-link">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Ullamcorper justo, nec, pellentesque.
+            </p>
+            <div class="footer-social__networks footer-networks">
+              <a href="#" class="footer-networks__link">
+                <svg width="26" height="26" class="footer-networks__icon">
+                  <use xlink:href="img/icons.svg#youtube"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer-networks__link">
+                <svg width="24" height="24" class="footer-networks__icon">
+                  <use xlink:href="img/icons.svg#vk"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer-networks__link">
+                <svg width="24" height="24" class="footer-networks__icon">
+                  <use xlink:href="img/icons.svg#facebook"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer-networks__link">
+                <svg width="24" height="24" class="footer-networks__icon">
+                  <use xlink:href="img/icons.svg#telegram"></use>
+                </svg>
+              </a>
+              <a href="#" class="footer-networks__link">
+                <svg width="16" height="16" class="footer-networks__icon">
+                  <use xlink:href="img/icons.svg#etsy"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- /footer-social -->
+        </div>
+        <!-- /footer-link -->
+     <div class="footer__line footer-line"></div>
+     <div class="footer__last-line last-line">
+      <span class="last-line__copyright">(c) 2020 OJJO jewelry</span>
+      <a href="#" class="last-line__agrement last-line__links">Договор публичной офферты</a>
+      <a href="#" class="last-line__agents last-line__links">Контрагентам</a>
+      <a href="#" class="last-line__figma last-line__links">Сделано Figma.info</a>
+     </div>
+      </div>
+      <!-- /container -->
+    </footer>
+  </body>
+</html>
