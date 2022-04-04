@@ -20,3 +20,9 @@
   [Tour-Plan](https://85ar.github.io/tour-plan/ )
   
   [Ehya-agency](https://85ar.github.io/ehya-agancy/ )
+
+  [Calculator js](https://85ar.github.io/calc/ )
+  
+  [Dictionary js](https://85ar.github.io/pizza/dictionary )
+  
+  [Pizza js](https://85ar.github.io/pizza/ )
