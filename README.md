@@ -27,4 +27,4 @@
   
   [Pizza js](https://85ar.github.io/pizza/ )
   
-  [News Portal](https://85ar.github.io/newsPortal/ )
+  [News Portal ](https://85ar.github.io/newsPortal/ )
