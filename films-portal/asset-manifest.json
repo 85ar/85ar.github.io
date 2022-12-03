@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/films-portal/static/css/main.7d40f2ec.css",
+    "main.js": "/films-portal/static/js/main.b89640de.js",
+    "static/media/background.png": "/films-portal/static/media/background.2e1eb2211ea487cd6a05.png",
+    "static/media/about.jpg": "/films-portal/static/media/about.02fe683ca77b3c3e3aad.jpg",
+    "static/media/star.png": "/films-portal/static/media/star.618d11e122cbca3f8e9e.png",
+    "static/media/Logo.svg": "/films-portal/static/media/Logo.8848571203d9d4d637a5eff6358e1900.svg",
+    "index.html": "/films-portal/index.html",
+    "static/media/reset.svg": "/films-portal/static/media/reset.e302745f1ceb591b89558fcee9c7820b.svg",
+    "main.7d40f2ec.css.map": "/films-portal/static/css/main.7d40f2ec.css.map",
+    "main.b89640de.js.map": "/films-portal/static/js/main.b89640de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d40f2ec.css",
+    "static/js/main.b89640de.js"
+  ]
+}
