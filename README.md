@@ -20,15 +20,15 @@ Cайты:
   [Tour-Plan](https://85ar.github.io/tour-plan/ )
   
   [Ehya-agency](https://85ar.github.io/ehya-agancy/ )
+  
+
+React приложения:
 
   [Calculator js](https://85ar.github.io/calc/ )
   
   [Pizza js](https://85ar.github.io/pizza/ )
-
-React приложения:
   
-  [News Portal ](https://85ar.github.io/newsPortal/ )
-
   [Films Portal ](https://85ar.github.io/films-portal/ )
+  
 
 Vue приложения:
