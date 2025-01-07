@@ -1,5 +1,5 @@
 # Артур Валеев
-Мои сайты:
+Cайты:
 
   [Мой первый сайт](https://85ar.github.io/lesson_14/ )
 
@@ -24,7 +24,11 @@
   [Calculator js](https://85ar.github.io/calc/ )
   
   [Pizza js](https://85ar.github.io/pizza/ )
+
+React приложения:
   
   [News Portal ](https://85ar.github.io/newsPortal/ )
 
   [Films Portal ](https://85ar.github.io/films-portal/ )
+
+Vue приложения:
