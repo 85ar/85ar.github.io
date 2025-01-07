@@ -23,8 +23,6 @@
 
   [Calculator js](https://85ar.github.io/calc/ )
   
-  [Dictionary js](https://85ar.github.io/pizza/dictionary )
-  
   [Pizza js](https://85ar.github.io/pizza/ )
   
   [News Portal ](https://85ar.github.io/newsPortal/ )
