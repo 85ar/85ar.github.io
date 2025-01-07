@@ -32,3 +32,5 @@ React приложения:
   
 
 Vue приложения:
+
+  [Fashion Shop](https://85ar.github.io/fashion-shop/ )
